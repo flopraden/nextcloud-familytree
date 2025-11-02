@@ -17,7 +17,7 @@ A Nextcloud app that lets you build your own family tree, freestyle. All done in
     <bugs>https://github.com/derbenx/nextcloud-familytree/issues</bugs>
     <screenshot>https://raw.githubusercontent.com/derbenx/nextcloud-familytree/main/familytreess.png</screenshot>
     <dependencies>
-        <nextcloud min-version="25" max-version="31"/>
+        <nextcloud min-version="25" max-version="32"/>
     </dependencies>
 	    <navigations>
         <navigation>
