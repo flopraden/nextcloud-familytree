@@ -27,9 +27,7 @@ class PageController extends Controller {
 	 */
 	public function index() {
 		$response = new TemplateResponse('familytree', 'index');  // templates/index.php
-		$csp = new ContentSecurityPolicy();
-		$csp->allowEvalScript(true);
-		$response->setContentSecurityPolicy($csp);
+		$response->setContentSecurityPolicy(new ContentSecurityPolicy());
 
 		return $response;
 	}
